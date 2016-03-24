@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script src="node_modules/angular/angular.js"></script>    
+    <script src="node_modules/systemjs/dist/system.src.js"></script>    
+    <!--<script src="dist/bundle-ts/bundle.js"></script>-->
+    <!--<script src="dist/bundle-babel/bundle.js"></script>-->
+    <script src="dist/bundle-system/bundle.js"></script>
+    
+    <!--<script>
+        System.config({
+            bundles: {
+               'dist/bundle-system/bundle.js': ['src/index.ts']
+            }
+        });
+        System.import('src/index.ts').then(function(){
+             angular.bootstrap(document, ['heroes']);
+        });
+    </script>-->
+  </head>
+
+  <body>
+    <list-of-heroes></list-of-heroes>
+  </body>
+</html>
