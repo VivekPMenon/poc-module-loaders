@@ -5,7 +5,7 @@ This note is purely for my understanding and for my future references. So some p
 
 To run this
 
-git clone https://github.com/VivekPMenon/poc-es6-module-loaders.git
+git clone https://github.com/VivekPMenon/poc-module-loaders.git
 
 cd poc-es6-module-loaders
 
