@@ -1,4 +1,4 @@
-# poc-es6-module-loaders
+# poc-module-loaders
 This POC is created to demistify my confusions around Javascript Module loaders and the terms around it such as CommonJs, AMD, Browserify etc.
 
 This note is purely for my understanding and for my future references. So some points/terms will be implicit here. 
