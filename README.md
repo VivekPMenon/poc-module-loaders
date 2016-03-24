@@ -3,6 +3,18 @@ This POC is created to demistify my confusions around Javascript Module loaders 
 
 This note is purely for my understanding and for my future references. So some points/terms will be implicit here. 
 
+To run this
+
+git clone https://github.com/VivekPMenon/poc-es6-module-loaders.git
+
+cd poc-es6-module-loaders
+
+npm install
+
+gulp build-using-system
+
+serve
+
 **CommonJs** 
 
 It was primarily used by Node Eco system for server side development. Whoever creates Node Modules or Libraries, they used CommonJs syntax. It is all about using **module, exports and require** objects for registering and resolving our modules. Since the library is run by Node Runtime,  developer can assume that module, exports and require variables will be available and he can do stuffs like below.
